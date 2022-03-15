@@ -36,6 +36,10 @@ img {
     width: 100%;
 }
 
+figcaption {
+    font-style: italic;
+}
+
 select {
     display: block;
     width: 100%;
@@ -75,7 +79,7 @@ select {
 @media(min-width: 681px) {
 
 #schools > div {
-    flex-basis: calc(25%% - 10px);
+    flex-basis: calc(25% - 10px);
 }
 }
 
